@@ -3,15 +3,15 @@
     <div>
       <Logo />
       <h1 class="title">
-        {{page.header}}
+        {{page.en.header}}
       </h1>
       <div class="links">
         <h2 class="subtitle">
-          {{page.description}}
+          {{page.en.description}}
         </h2>
       </div>
       <div>
-        <img width="245" viewBox="0 0 452 342" :src=page.image />
+        <img width="245" viewBox="0 0 452 342" :src=page.en.image />
       </div>
 
       <div>

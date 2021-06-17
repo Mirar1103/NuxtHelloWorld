@@ -27,7 +27,7 @@ collections:
     create: true
     slug: '{{slug}}'
     i18n:
-      structure: single_file
+      structure: multiple_folders
       locales: [en, de, fr]
     editor:
       preview: false
