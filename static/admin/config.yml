@@ -33,6 +33,6 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Header', name: 'header', widget: 'string' }      
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - { label: 'Image', name: 'image', widget: 'string', i18n: true }
