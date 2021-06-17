@@ -1,17 +1,18 @@
 <template>
   <div class="container">
     <div>
+      <Header />
       <Logo />
       <h1 class="title">
-        {{page.en.header}}
+        {{page.header}}
       </h1>
       <div class="links">
         <h2 class="subtitle">
-          {{page.en.description}}
+          {{page.description}}
         </h2>
       </div>
       <div>
-        <img width="245" viewBox="0 0 452 342" :src=page.en.image />
+        <img width="245" viewBox="0 0 452 342" :src=page.image />
       </div>
 
       <div>
@@ -38,9 +39,9 @@
         script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
       };
     },
-  
-    async asyncData({ $content }) {
-      const page = await $content('info/index').fetch()
+
+    async asyncData({ $content, app }) {
+      const page = await $content('info/'+`${app.i18n.locale}/index`).fetch()
 
       return {
         page
