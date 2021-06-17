@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        Hello World
+        {{page.title}}
       </h1>
       <div class="links">
         <a href="https://nuxtjs.org/"
@@ -44,6 +44,13 @@
       };
     },
   
+    async asyncData({ $content }) {
+      const page = await $content('info/index').fetch()
+
+      return {
+        page
+      }
+    },
 
     data() {
       return {
