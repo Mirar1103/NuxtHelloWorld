@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: github
+  repo: Mirar1103/NuxtHelloWorld
 
 media_folder: static/img
 public_folder: /img
@@ -9,6 +9,20 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'info'
+    label: 'Info'
+    folder: 'content/info'
     format: 'frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
