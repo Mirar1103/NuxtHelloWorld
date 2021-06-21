@@ -9,26 +9,10 @@
       <div class="links">
         <h2 class="subtitle">
           {{page.description}}
-          <NuxtLink to="/other">
-            Other Page
-          </NuxtLink>
         </h2>
       </div>
       <div>
         <img width="245" viewBox="0 0 452 342" :src=page.image />
-      </div>
-
-      <div>
-        <input v-model="textInput" @blur="resetTextInput()">
-        {{ calculateLength() }} {{ lengthOfTextInput }} {{ counterComputed + ' ' + counterMethod }} 
-
-        <div>
-          <input placeholder="Filter" v-model="filter">
-          <p v-for="val in filteredArray">
-            Text {{ val }}
-          </p>
-        </div>
-
       </div>
     </div>
   </div>
@@ -44,43 +28,14 @@
     },
 
     async asyncData({ $content, app }) {
-      const page = await $content('info/'+`${app.i18n.locale}/index`).fetch()
+      const page = await $content('info/'+`${app.i18n.locale}/other`).fetch()
 
       return {
         page
       }
     },
 
-    data() {
-      return {
-        textInput: 'Wert',
-        array: [1, 2, 3, 4, 5],
-        length: 0,
-        counterMethod: 0,
-        counterComputed: 0,
-        filter: ''
-      }
-    },
-    computed: {
-      lengthOfTextInput: function () {
-        this.counterComputed++
-        return this.textInput.length
-      },
-      filteredArray: function () {
-        return this.array.filter(function (val) {
-          return val >= this.filter
-        }.bind(this))
-      }
-    },
-    methods: {
-      calculateLength: function () {
-        this.counterMethod++
-        return this.textInput.length
-      },
-      resetTextInput: function () {
-        this.textInput = 'Wert'
-      }
-    }
+   
 
 
 

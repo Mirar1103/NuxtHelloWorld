@@ -16,5 +16,10 @@
 
         
       </div>
+      <div>
+        <NuxtLink to="/">
+          index
+        </NuxtLink>
+      </div>
   </header>
 </template>
