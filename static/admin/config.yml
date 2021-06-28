@@ -62,19 +62,3 @@ collections:
            - { label: 'Header11', name: 'header11', widget: 'string', i18n: true }      
            - { label: 'Description11', name: 'description11', widget: 'string', i18n: true }
 
-  - label: 'Info'
-    name: 'info'
-    folder: 'content/info'
-    format: 'frontmatter'
-    create: true
-    slug: '{{slug}}'
-    i18n:
-      structure: multiple_folders
-      locales: [en, de, fr]
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
-      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
-      - { label: 'Image', name: 'image', widget: 'string', i18n: true }
