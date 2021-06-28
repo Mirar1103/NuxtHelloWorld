@@ -36,7 +36,7 @@ collections:
       - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'string', i18n: true }
-  - label: 'Info´2'
+  - label: 'Info2'
     name: 'info2'
     folder: 'content/info2'
     format: 'frontmatter'
