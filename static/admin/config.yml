@@ -20,8 +20,8 @@ i18n:
   default_locale: en
 
 collections:
-  - name: 'info'
-    label: 'Info'
+  - label: 'Info'
+    name: 'info'
     folder: 'content/info'
     format: 'frontmatter'
     create: true
@@ -36,8 +36,8 @@ collections:
       - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'string', i18n: true }
-  - name: 'menu'
-    label: 'Menu'
+  - label: 'Menu'
+    name: 'menu'
     folder: 'content/menu'
     format: 'frontmatter'
     create: true
