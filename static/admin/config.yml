@@ -27,8 +27,6 @@ collections:
       name: 'menu'
       folder: 'content/menu/en/menu.md'
       format: 'frontmatter'
-      create: true
-      slug: '{{slug}}'
       i18n:
         structure: single_file
         locales: [en, de, fr]
