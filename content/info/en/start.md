@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Start
 header: Stupid idea
 date: 2021-06-17T06:41:34.021Z
 description: Trial
