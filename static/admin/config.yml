@@ -36,6 +36,7 @@ collections:
       - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'string', i18n: true }
+
   - label: 'Menu'
     name: 'menu'
     folder: 'content/menu'
@@ -52,6 +53,7 @@ collections:
       - { label: 'Title1', name: 'title', widget: 'string', i18n: true }
       - label: 'Section1'
         name: 'section1'
+        widget: "object"
         fields:
          - { label: 'Header1', name: 'header1', widget: 'string', i18n: true }      
          - { label: 'Description1', name: 'description1', widget: 'string', i18n: true }
