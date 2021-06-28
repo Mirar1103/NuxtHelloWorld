@@ -49,6 +49,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
       - { label: 'Title1', name: 'title', widget: 'string', i18n: true }
       - label: 'Section1'
         name: 'section1'
