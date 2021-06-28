@@ -1624,6 +1624,16 @@
       return {
         visible: true
       }
-    }
+    },
+    async asyncData({ $content, params, redirect }) {
+      return await $content('menu/' + `${params.lang}/menu`).fetch().then((page) => {
+        return {
+          page
+        }
+      }, (error) => {
+        console.log(error)
+        redirect({ params: { lang: 'en' } })
+      })
+    },
   }
 </script>
