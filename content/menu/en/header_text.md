@@ -1,51 +1,51 @@
 ---
 title: Header_text
-title1: lorem ipsum
+title1: Solutions
 section1:
-  header1: lorem ipsum
-  header2: lorem ipsum
-  header3: lorem ipsum
-  header4: lorem ipsum
-  header5: lorem ipsum
-  header6: lorem ipsum
-  header7: lorem ipsum
-  header8: lorem ipsum
-  header10: lorem ipsum
-  header9: lorem ipsum
-  header11: lorem ipsum
-  description1: lorem ipsum
-  description2: lorem ipsum
-  description3: lorem ipsum
-  description4: lorem ipsum
-  description5: lorem ipsum
-  description6: lorem ipsum
-  description10: lorem ipsum
-  description7: lorem ipsum
-  description11: lorem ipsum
-  description8: lorem ipsum
-  description9: lorem ipsum
-title2: lorem ipsum
+  header1: Processing
+  header2: Generation
+  header3: Receipt
+  header4: Archiving
+  header5: Recognition
+  header6: Prep
+  header7: Display
+  header8: Distribution
+  header10: Consultants
+  header9: Institutes
+  header11: Institiutions
+  description1: quod erat demonstrandum
+  description2: quod erat demonstrandum
+  description3: quod erat demonstrandum
+  description4: quod erat demonstrandum
+  description5: quod erat demonstrandum
+  description6: quod erat demonstrandum
+  description10: quod erat demonstrandum
+  description7: quod erat demonstrandum
+  description11: quod erat demonstrandum
+  description8: quod erat demonstrandum
+  description9: quod erat demonstrandum
+title2: Products
 section2:
-  header1: lorem ipsum
-  header2: lorem ipsum
-  header3: lorem ipsum
-  header4: lorem ipsum
-  header5: lorem ipsum
-  header6: lorem ipsum
-  header7: lorem ipsum
-  header8: lorem ipsum
-  header10: lorem ipsum
-  header9: lorem ipsum
-  header11: lorem ipsum
-  description1: lorem ipsum
-  description2: lorem ipsum
-  description3: lorem ipsum
-  description4: lorem ipsum
-  description5: lorem ipsum
-  description6: lorem ipsum
-  description10: lorem ipsum
-  description7: lorem ipsum
-  description11: lorem ipsum
-  description8: lorem ipsum
-  description9: lorem ipsum
+  header1: lorem Ipsum
+  header2: lorem Ipsum
+  header3: lorem Ipsum
+  header4: lorem Ipsum
+  header5: lorem Ipsum
+  header6: lorem Ipsum
+  header7: lorem Ipsum
+  header8: lorem Ipsum
+  header10: lorem Ipsum
+  header9: lorem Ipsum
+  header11: lorem Ipsum
+  description1: quod erat demonstrandum
+  description2: quod erat demonstrandum
+  description3: quod erat demonstrandum
+  description4: quod erat demonstrandum
+  description5: quod erat demonstrandum
+  description6: quod erat demonstrandum
+  description10: quod erat demonstrandum
+  description7: quod erat demonstrandum
+  description11: quod erat demonstrandum
+  description8: quod erat demonstrandum
+  description9: quod erat demonstrandum
 ---
