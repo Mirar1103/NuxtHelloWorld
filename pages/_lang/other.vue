@@ -1,8 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <Header />
-      <Logo />
       <h1 class="title">
         {{page.header}}
       </h1>
@@ -10,6 +8,9 @@
         <h2 class="subtitle">
           {{page.description}}
         </h2>
+        <NuxtLink to="./start">
+          index
+        </NuxtLink>
       </div>
       <div>
         <img width="245" viewBox="0 0 452 342" :src=page.image />
@@ -27,12 +28,15 @@
       };
     },
 
-    async asyncData({ $content, app }) {
-      const page = await $content('info/'+`${app.i18n.locale}/other`).fetch()
-
-      return {
-        page
-      }
+    async asyncData({ $content, params, redirect }) {
+      return await $content('info/' + `${params.lang}/other`).fetch().then((page) => {
+        return {
+          page
+        }
+      }, (error) => {
+        console.log(error)
+          redirect({ params: { lang: 'en' } })
+      })
     },
 
    

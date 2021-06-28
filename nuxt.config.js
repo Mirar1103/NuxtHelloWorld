@@ -9,9 +9,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    css: [
+      '~/assets/css/cibstyle.css',
+      '~/assets/css/bootstrap.css',
+      '~/assets/css/new-style.css',
+      '~/assets/css/style-cookie.css'
     ]
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -36,9 +41,21 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
-    'nuxt-i18n',
+    '@nuxtjs/router',
+    "bootstrap-vue/nuxt"
+    
   ],
+
+  
+  bootstrapVue: {
+    // Install the `IconsPlugin` plugin (in addition to `BootstrapVue` plugin)
+    icons: true,
+    
+    componentPlugins: ['IconsPlugin', 'VBTogglePlugin', 'CollapsePlugin']
+  },
+
   i18n: {
+    strategy: 'prefix_and_default',
     locales: ['en', 'fr', 'de'],
     defaultLocale: 'en',
     vueI18n: {
@@ -58,7 +75,7 @@ export default {
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
-
+  routerModule: { keepDefaultRouter: true },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
@@ -71,6 +88,18 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    babel: {
+      compact: true,
+    }
+  },
+
+  generate: {
+    async routes() {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true }).only(['path']).fetch()
+
+      return files.map(file => file.path === '/index' ? '/' : file.path)
+    }
   },
 
   target : 'static'
