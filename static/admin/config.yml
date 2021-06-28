@@ -40,7 +40,7 @@ collections:
     name: 'menu'
     folder: 'content/menu'
     format: 'frontmatter'
-    create: true
+    create: false
     slug: '{{slug}}'
     i18n:
       structure: multiple_folders
