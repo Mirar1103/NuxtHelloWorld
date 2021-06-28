@@ -36,60 +36,46 @@ collections:
       - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'string', i18n: true }
-  - label: 'Info2'
-    name: 'info2'
-    folder: 'content/info2'
-    format: 'frontmatter'
-    type: 'file'
-    create: true
-    slug: '{{slug}}'
-    i18n:
-      structure: multiple_folders
-      locales: [en, de, fr]
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
-      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
-      - { label: 'Image', name: 'image', widget: 'string', i18n: true }
-  - label: 'Menu'
-    name: 'menu'
-    folder: 'content/menu'
-    format: 'frontmatter'
-    create: true
-    slug: '{{slug}}'
-    i18n:
-      structure: multiple_folders
-      locales: [en, de, fr]
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Title1', name: 'title', widget: 'string', i18n: true }
-      - label: 'Section1'
-        name: 'section1'
-        widget: "object"
-        fields:
-         - { label: 'Header1', name: 'header1', widget: 'string', i18n: true }      
-         - { label: 'Description1', name: 'description1', widget: 'string', i18n: true }
-         - { label: 'Header2', name: 'header2', widget: 'string', i18n: true }      
-         - { label: 'Description2', name: 'description2', widget: 'string', i18n: true }
-         - { label: 'Header3', name: 'header3', widget: 'string', i18n: true }      
-         - { label: 'Description3', name: 'description3', widget: 'string', i18n: true }
-         - { label: 'Header4', name: 'header4', widget: 'string', i18n: true }      
-         - { label: 'Description4', name: 'description4', widget: 'string', i18n: true }
-         - { label: 'Header5', name: 'header5', widget: 'string', i18n: true }      
-         - { label: 'Description5', name: 'description5', widget: 'string', i18n: true }
-         - { label: 'Header6', name: 'header6', widget: 'string', i18n: true }      
-         - { label: 'Description6', name: 'description6', widget: 'string', i18n: true }
-         - { label: 'Header7', name: 'header7', widget: 'string', i18n: true }      
-         - { label: 'Description7', name: 'description7', widget: 'string', i18n: true }
-         - { label: 'Header8', name: 'header8', widget: 'string', i18n: true }      
-         - { label: 'Description8', name: 'description8', widget: 'string', i18n: true }
-         - { label: 'Header9', name: 'header9', widget: 'string', i18n: true }      
-         - { label: 'Description9', name: 'description9', widget: 'string', i18n: true }
-         - { label: 'Header10', name: 'header10', widget: 'string', i18n: true }      
-         - { label: 'Description10', name: 'description10', widget: 'string', i18n: true }
-         - { label: 'Header11', name: 'header11', widget: 'string', i18n: true }      
-         - { label: 'Description11', name: 'description11', widget: 'string', i18n: true }
+  - label: "Website_Pages"
+    name: "Website_pages"
+    files:
+    - label: 'Menu'
+      name: 'menu'
+      folder: 'content/menu/en/menu.md'
+      format: 'frontmatter'
+      create: true
+      slug: '{{slug}}'
+      i18n:
+        structure: single_file
+        locales: [en, de, fr]
+      editor:
+       preview: false
+       fields:
+        - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+        - { label: 'Title1', name: 'title', widget: 'string', i18n: true }
+        - label: 'Section1'
+          name: 'section1'
+          widget: "object"
+          fields:
+           - { label: 'Header1', name: 'header1', widget: 'string', i18n: true }      
+           - { label: 'Description1', name: 'description1', widget: 'string', i18n: true }
+           - { label: 'Header2', name: 'header2', widget: 'string', i18n: true }      
+           - { label: 'Description2', name: 'description2', widget: 'string', i18n: true }
+           - { label: 'Header3', name: 'header3', widget: 'string', i18n: true }      
+           - { label: 'Description3', name: 'description3', widget: 'string', i18n: true }
+           - { label: 'Header4', name: 'header4', widget: 'string', i18n: true }      
+           - { label: 'Description4', name: 'description4', widget: 'string', i18n: true }
+           - { label: 'Header5', name: 'header5', widget: 'string', i18n: true }      
+           - { label: 'Description5', name: 'description5', widget: 'string', i18n: true }
+           - { label: 'Header6', name: 'header6', widget: 'string', i18n: true }      
+           - { label: 'Description6', name: 'description6', widget: 'string', i18n: true }
+           - { label: 'Header7', name: 'header7', widget: 'string', i18n: true }      
+           - { label: 'Description7', name: 'description7', widget: 'string', i18n: true }
+           - { label: 'Header8', name: 'header8', widget: 'string', i18n: true }      
+           - { label: 'Description8', name: 'description8', widget: 'string', i18n: true }
+           - { label: 'Header9', name: 'header9', widget: 'string', i18n: true }      
+           - { label: 'Description9', name: 'description9', widget: 'string', i18n: true }
+           - { label: 'Header10', name: 'header10', widget: 'string', i18n: true }      
+           - { label: 'Description10', name: 'description10', widget: 'string', i18n: true }
+           - { label: 'Header11', name: 'header11', widget: 'string', i18n: true }      
+           - { label: 'Description11', name: 'description11', widget: 'string', i18n: true }
