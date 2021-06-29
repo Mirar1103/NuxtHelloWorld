@@ -10,13 +10,13 @@
         </picture>
       </a>
 
-      <b-button class="nav-link pb-0 red_on_black" v-b-toggle.collapse-1 variant="primary">Solutions</b-button>
-      <b-collapse id="collapse-1" class="dropdown-menu" accordion="menu-accordion" >
+      <b-button class="nav-link pb-0 red_on_black" v-b-toggle.collapse-1 variant="primary">{{page.title1}}</b-button>
+      <b-collapse id="collapse-1" class="dropdown-menu" accordion="menu-accordion">
         <div class="bg-menu">
           <p class="red_on_black">
             <span class="red_on_black"
-                  style="font-size: 30px; vertical-align: sub;">title</span>
-            
+                  style="font-size: 30px; vertical-align: sub;">{{page.title1}}</span>
+
           </p>
 
           <div class="row">
@@ -28,10 +28,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Processing
+                          {{page.section1.header1}}
                         </p>
                         <p class="megamenu-description">
-                          text
+                          {{page.section1.description1}}
                         </p>
                       </div>
                     </a>
@@ -40,10 +40,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Generation
+                          {{page.section1.header2}}
                         </p>
                         <p class="megamenu-description">
-                          text
+                          {{page.section1.description2}}
                         </p>
                       </div>
                     </a>
@@ -52,10 +52,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Receipt
+                          {{page.section1.header3}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description3}}
                         </p>
                       </div>
                     </a>
@@ -64,10 +64,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Archiving
+                          {{page.section1.header4}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description4}}
                         </p>
                       </div>
                     </a>
@@ -83,10 +83,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Recognition
+                          {{page.section1.header5}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description5}}
                         </p>
                       </div>
                     </a>
@@ -95,10 +95,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Prep
+                          {{page.section1.header6}}
                         </p>
                         <p class="megamenu-description">
-                          text
+                          {{page.section1.description6}}
                         </p>
                       </div>
                     </a>
@@ -115,10 +115,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Display
+                          {{page.section1.header7}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description7}}
                         </p>
                       </div>
                     </a>
@@ -127,10 +127,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Distribution
+                          {{page.section1.header8}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description8}}
                         </p>
                       </div>
                     </a>
@@ -147,10 +147,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Institutes
+                          {{page.section1.header9}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description9}}
                         </p>
                       </div>
                     </a>
@@ -159,10 +159,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Consultant
+                          {{page.section1.header10}}
                         </p>
                         <p class="megamenu-description">
-                          Text
+                          {{page.section1.description10}}
                         </p>
                       </div>
                     </a>
@@ -171,10 +171,10 @@
                     <a href="#">
                       <div class="p-2">
                         <p class="megamenu-Sub-title">
-                          Instituions
+                          {{page.section1.header11}}
                         </p>
                         <p class="megamenu-description">
-                          text
+                          {{page.section1.description11}}
                         </p>
                       </div>
                     </a>
@@ -185,14 +185,13 @@
           </div>
         </div>
       </b-collapse>
-      <b-button class="nav-link pb-0" v-b-toggle.collapse-2 variant="primary">Products</b-button>
+      <b-button class="nav-link pb-0" v-b-toggle.collapse-2 variant="primary">{{page.title2}}</b-button>
       <b-collapse id="collapse-2" class="dropdown-menu" accordion="menu-accordion">
         <b-card>
           <div>
             <p class="megamenu-title">
               <span class="material-icons material-icons-red"
-                    style="font-size: 30px; vertical-align: sub;">emoji_objects</span>
-              title
+                    style="font-size: 30px; vertical-align: sub;">{{page.title2}}</span>
             </p>
 
             <div class="row">
@@ -204,10 +203,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Processing
+                            {{page.section2.header1}}
                           </p>
                           <p class="megamenu-description">
-                            text
+                            {{page.section2.description1}}
                           </p>
                         </div>
                       </a>
@@ -216,10 +215,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Generation
+                            {{page.section2.header2}}
                           </p>
                           <p class="megamenu-description">
-                            text
+                            {{page.section2.description2}}
                           </p>
                         </div>
                       </a>
@@ -228,10 +227,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Receipt
+                            {{page.section2.header3}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description3}}
                           </p>
                         </div>
                       </a>
@@ -240,10 +239,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Archiving
+                            {{page.section2.header4}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description4}}
                           </p>
                         </div>
                       </a>
@@ -259,10 +258,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Recognition
+                            {{page.section2.header5}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description5}}
                           </p>
                         </div>
                       </a>
@@ -271,10 +270,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Prep
+                            {{page.section2.header6}}
                           </p>
                           <p class="megamenu-description">
-                            text
+                            {{page.section2.description6}}
                           </p>
                         </div>
                       </a>
@@ -291,10 +290,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Display
+                            {{page.section2.header7}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description7}}
                           </p>
                         </div>
                       </a>
@@ -303,10 +302,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Distribution
+                            {{page.section2.header8}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description8}}
                           </p>
                         </div>
                       </a>
@@ -323,10 +322,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Institutes
+                            {{page.section2.header9}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description9}}
                           </p>
                         </div>
                       </a>
@@ -335,10 +334,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Consultant
+                            {{page.section2.header10}}
                           </p>
                           <p class="megamenu-description">
-                            Text
+                            {{page.section2.description10}}
                           </p>
                         </div>
                       </a>
@@ -347,10 +346,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Instituions
+                            {{page.section2.header11}}
                           </p>
                           <p class="megamenu-description">
-                            text
+                            {{page.section2.description11}}
                           </p>
                         </div>
                       </a>
@@ -391,3 +390,10 @@
   </div>
 
 </template>
+<script>
+  export default {
+
+    props: ['page'],
+    
+  }
+</script>

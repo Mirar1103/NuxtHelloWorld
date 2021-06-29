@@ -23,13 +23,13 @@
         <li class="nav-item dropdown has-megamenu hr">
           <a class="nav-link pb-0" data-toggle="dropdown"
              href="Solutions">
-            Solution
+            {{page.title1}}
           </a>
           <div class="dropdown-menu megamenu-dropdown-menu megamenu" role="menu">
             <p class="megamenu-title">
               <span class="material-icons material-icons-red"
                     style="font-size: 30px; vertical-align: sub;">emoji_objects</span>
-              title
+              {{page.title1}}
             </p>
 
             <div class="row">
@@ -41,10 +41,10 @@
                       <a href="#">
                         <div class="p-2">
                           <p class="megamenu-Sub-title">
-                            Processing
+                            {{page.header1}}
                           </p>
                           <p class="megamenu-description">
-                            text
+                            {{page.description1}}
                           </p>
                         </div>
                       </a>
@@ -1626,7 +1626,7 @@
       }
     },
     async asyncData({ $content, params, redirect }) {
-      return await $content('menu/' + `${params.lang}/menu`).fetch().then((page) => {
+      return await $content('menu/' + `${params.lang}/header_text`).fetch().then((page) => {
         return {
           page
         }

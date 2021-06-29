@@ -40,7 +40,7 @@ collections:
     name: 'menu'
     folder: 'content/menu'
     format: 'frontmatter'
-    create: true
+    create: false
     slug: '{{slug}}'
     i18n:
       structure: multiple_folders
@@ -105,4 +105,121 @@ collections:
          - { label: 'Description10', name: 'description10', widget: 'string', i18n: true }
          - { label: 'Header11', name: 'header11', widget: 'string', i18n: true }      
          - { label: 'Description11', name: 'description11', widget: 'string', i18n: true }
+  - label: 'Footer'
+    name: 'footer'
+    folder: 'content/footer'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    i18n:
+      structure: multiple_folders
+      locales: [en, de, fr]
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - label: 'Column1'
+        name: 'column1'
+        widget: "object"
+        i18n: true
+        fields: 
+         - label: 'Section1'
+           name: 'section1'
+           widget: "object"
+           i18n: true
+           fields:
+            - { label: 'Header', name: 'header', widget: 'string', i18n: true } 
+            - { label: 'Name1', name: 'name1', widget: 'string', i18n: true }
+            - { label: 'Link1', name: 'link1', widget: 'string', i18n: true }
+            - { label: 'Name2', name: 'name2', widget: 'string', i18n: true }
+            - { label: 'Link2', name: 'link2', widget: 'string', i18n: true } 
+         - label: 'Section2'
+           name: 'section2'
+           widget: "object"
+           i18n: true
+           fields:
+            - { label: 'Header', name: 'header', widget: 'string', i18n: true } 
+            - { label: 'Name1', name: 'name1', widget: 'string', i18n: true }
+            - { label: 'Link1', name: 'link1', widget: 'string', i18n: true }
+            - { label: 'Name2', name: 'name2', widget: 'string', i18n: true }
+            - { label: 'Link2', name: 'link2', widget: 'string', i18n: true }
+            - { label: 'Name3', name: 'name3', widget: 'string', i18n: true }
+            - { label: 'Link3', name: 'link3', widget: 'string', i18n: true }
+      - label: 'Column2'
+        name: 'column2'
+        widget: "object"
+        i18n: true
+        fields:
+        - { label: 'Header', name: 'header', widget: 'string', i18n: true } 
+        - { label: 'Name1', name: 'name1', widget: 'string', i18n: true }
+        - { label: 'Link1', name: 'link1', widget: 'string', i18n: true }
+        - { label: 'Name2', name: 'name2', widget: 'string', i18n: true }
+        - { label: 'Link2', name: 'link2', widget: 'string', i18n: true }
+        - { label: 'Name3', name: 'name3', widget: 'string', i18n: true }
+        - { label: 'Link3', name: 'link3', widget: 'string', i18n: true } 
+        - { label: 'Name4', name: 'name4', widget: 'string', i18n: true }
+        - { label: 'Link4', name: 'link4', widget: 'string', i18n: true }
+        - { label: 'Name5', name: 'name5', widget: 'string', i18n: true }
+        - { label: 'Link5', name: 'link5', widget: 'string', i18n: true }
+        - { label: 'Name6', name: 'name6', widget: 'string', i18n: true }
+        - { label: 'Link6', name: 'link6', widget: 'string', i18n: true } 
+        - { label: 'Name7', name: 'name7', widget: 'string', i18n: true }
+        - { label: 'Link7', name: 'link7', widget: 'string', i18n: true }
+        - { label: 'Name8', name: 'name8', widget: 'string', i18n: true }
+        - { label: 'Link8', name: 'link8', widget: 'string', i18n: true }
+        - { label: 'Name9', name: 'name9', widget: 'string', i18n: true }
+        - { label: 'Link9', name: 'link9', widget: 'string', i18n: true } 
+        - { label: 'Name10', name: 'name10', widget: 'string', i18n: true }
+        - { label: 'Link10', name: 'link10', widget: 'string', i18n: true }
+        - { label: 'Name11', name: 'name11', widget: 'string', i18n: true }
+        - { label: 'Link11', name: 'link11', widget: 'string', i18n: true }
+        - { label: 'Name12', name: 'name12', widget: 'string', i18n: true }
+        - { label: 'Link12', name: 'link12', widget: 'string', i18n: true }
+        - { label: 'Name13', name: 'name13', widget: 'string', i18n: true }
+        - { label: 'Link13', name: 'link13', widget: 'string', i18n: true }
+      - label: 'Column3'
+        name: 'column3'
+        widget: "object"
+        i18n: true
+        fields: 
+         - label: 'Section1'
+           name: 'section1'
+           widget: "object"
+           i18n: true
+           fields:
+            - { label: 'Header', name: 'header', widget: 'string', i18n: true } 
+            - { label: 'Name1', name: 'name1', widget: 'string', i18n: true }
+            - { label: 'Link1', name: 'link1', widget: 'string', i18n: true }
+            - { label: 'Name2', name: 'name2', widget: 'string', i18n: true }
+            - { label: 'Link2', name: 'link2', widget: 'string', i18n: true }
+            - { label: 'Name3', name: 'name3', widget: 'string', i18n: true }
+            - { label: 'Link3', name: 'link3', widget: 'string', i18n: true }
+            - { label: 'Name4', name: 'name4', widget: 'string', i18n: true }
+            - { label: 'Link4', name: 'link4', widget: 'string', i18n: true }
+            - { label: 'Name5', name: 'name5', widget: 'string', i18n: true }
+            - { label: 'Link5', name: 'link5', widget: 'string', i18n: true }
+            - { label: 'Name6', name: 'name6', widget: 'string', i18n: true }
+            - { label: 'Link6', name: 'link6', widget: 'string', i18n: true } 
+         - label: 'Section2'
+           name: 'section2'
+           widget: "object"
+           i18n: true
+           fields:
+            - { label: 'Header', name: 'header', widget: 'string', i18n: true } 
+            - { label: 'ContactTimes', name: 'contactTimes', widget: 'string', i18n: true }
+            - { label: 'Number', name: 'number', widget: 'string', i18n: true }
+            - { label: 'NumberHref', name: 'numberHref', widget: 'string', i18n: true }
+            - { label: 'Mail', name: 'mail', widget: 'string', i18n: true }
+            - { label: 'MailHref', name: 'mailHref', widget: 'string', i18n: true }
+         - label: 'Section3'
+           name: 'section3'
+           widget: "object"
+           i18n: true
+           fields:
+            - { label: 'Header', name: 'header', widget: 'string', i18n: true } 
+            - { label: 'Name1', name: 'name1', widget: 'string', i18n: true }
+            - { label: 'Link1', name: 'link1', widget: 'string', i18n: true }
+            - { label: 'Name2', name: 'name2', widget: 'string', i18n: true }
+            - { label: 'Link2', name: 'link2', widget: 'string', i18n: true } 
+          
 
