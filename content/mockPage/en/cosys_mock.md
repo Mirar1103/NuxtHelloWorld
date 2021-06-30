@@ -23,7 +23,7 @@ gridImageTop1:
   description1: lorem ipsum
   image1: ~/static/img/Alle Ausgabeformate_zentral_gesteuert_illu.svg
   description2: lorem ipsum
-  image2: ~/static/img/Effiziente_Kommunikationsprozesse_illu.svg
+  image2: /img/Effiziente_Kommunikationsprozesse_illu.svg
   description3: lorem ipsum
   image3: ~/static/img/Personalisierte_Kommunikation_illu.svg
   title: Create Unique Correspondence
