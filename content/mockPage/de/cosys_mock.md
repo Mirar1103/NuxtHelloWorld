@@ -29,7 +29,7 @@ gridImageTop1:
   description2: Sprechen Sie Ihre Kunden gezielt an. Mit individuellen und
     automatisiert erzeugten Korrespondenzen verbessern Sie ihre Kommunikation
     und erhöhen die Kundenzufriedenheit.
-  image2: ~/static/img/Personalisierte_Kommunikation_illu.svg
+  image2: /img/Personalisierte_Kommunikation_illu.svg
   description3: Je nach Korrespondenz können Dokument-Freigabeworkflows aktiviert
     und Grafiken eingefügt werden. Dadurch behalten Sie den Überblick und
     erhöhen Sicherheit und Qualität.
