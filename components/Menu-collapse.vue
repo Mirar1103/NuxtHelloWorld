@@ -10,11 +10,11 @@
         </picture>
       </a>
 
-      <b-button class="nav-link pb-0 red_on_black" v-b-toggle.collapse-1 variant="primary">{{page.title1}}</b-button>
+      <b-button class="nav-link pb-0" v-b-toggle.collapse-1 variant="primary">{{page.title1}}</b-button>
       <b-collapse id="collapse-1" class="dropdown-menu" accordion="menu-accordion">
         <div class="bg-menu">
-          <p class="red_on_black">
-            <span class="red_on_black"
+          <p class="megamenu-title">
+            <span class="material-icons material-icons-red"
                   style="font-size: 30px; vertical-align: sub;">{{page.title1}}</span>
 
           </p>

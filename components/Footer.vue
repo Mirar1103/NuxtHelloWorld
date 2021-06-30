@@ -4,107 +4,103 @@
     <div class="container d-none d-md-block">
       <div class="row mb-5">
         <div class="col">
-          <span class="footer-text-title">Beratung und Lizensierung</span>
+          <span class="footer-text-title">{{page.column1.section1.header}}</span>
         <ul class="custom-list-footer">
           <li>
-          <a href="+49 89 143 60 - 300">+49 89 143 60 - 300</a>
+            <a :href = "page.column1.section1.link1">{{page.column1.section1.name1}}</a>
             </li>
           <li>
-          <a href="mailto:produktberatung@cib.de">produktberatung@cib.de</a>
+            <a :href="page.column1.section1.link2">{{page.column1.section1.name2}}</a>
             </li>
           </ul>
-        <span class="footer-text-title">Services</span>
+        <span class="footer-text-title">{{page.column1.section2.header}}</span>
         <ul class="custom-list-footer">
             <li>
-          <a href="https://flow.cib.de/" target="_blank">CIB flow</a>
+              <a :href="page.column1.section2.link1" target="_blank">{{page.column1.section2.name1}}</a>
             </li>
             <li>
-              <a href="https://www.cib.de/de/berater/vorlagen-service.html" target="_blank">
-                CIB
-                Vorlagenservice
+              <a :href="page.column1.section2.link2" target="_blank">
+                {{page.column1.section2.name2}}
               </a>
             </li>
-            <li><a href="https://www.cib.de/de/berater.html" target="_blank">CIB Berater</a></li>
+            <li><a :href="page.column1.section2.link3" target="_blank">{{page.column1.section2.name3}}</a></li>
           </ul>
         </div> <div class="col">
-          <span class="footer-text-title">CIB Lösungen</span> <ul class="custom-list-footer">
-            <li><a href="https://cosys.cib.de/" target="_blank">CIB coSys</a></li>
-            <li><a href="https://www.doxisafe.me/" target="_blank">CIB doXisafe</a></li>
-            <li><a href="https://doxigate.cib.de/" target="_blank">CIB doXigate</a></li>
-            <li><a href="https://doxiview.cib.de/showcase/" target="_blank">CIB doXiview</a></li>
-            <li><a href="https://doxisign.cib.de/" target="_blank">CIB doXisign</a></li>
-            <li><a href="https://einvoice.cib.de/" target="_blank">CIB eInvoice</a></li>
-            <li><a href="https://pdfbrewer.cib.de/" target="_blank">CIB pdf brewer</a></li>
-            <li><a href="https://kanzlei-app.cib.de/" target="_blank">CIB kanzlei app</a></li>
-            <li><a href="https://fairbrieft.cib.de/" target="_blank">CIB fairBrieft</a></li>
+                 <span class="footer-text-title">{{page.column2.header}}</span> <ul class="custom-list-footer">
+            <li><a :href="page.column2.link1" target="_blank">{{page.column2.name1}}</a></li>
+            <li><a :href="page.column2.link2" target="_blank">{{page.column2.name2}}</a></li>
+            <li><a :href="page.column2.link3" target="_blank">{{page.column2.name3}}</a></li>
+            <li><a :href="page.column2.link4" target="_blank">{{page.column2.name4}}</a></li>
+            <li><a :href="page.column2.link5" target="_blank">{{page.column2.name5}}</a></li>
+            <li><a :href="page.column2.link6" target="_blank">{{page.column2.name6}}</a></li>
+            <li><a :href="page.column2.link7" target="_blank">{{page.column2.name7}}</a></li>
+            <li><a :href="page.column2.link8" target="_blank">{{page.column2.name8}}</a></li>
+            <li><a :href="page.column2.link9" target="_blank">{{page.column2.name9}}</a></li>
             <li>
-              <a href="https://fluxkomprimator.cib.de" target="_blank">
-                CIB
-                fluXkomprimator
+              <a :href="page.column2.link10" target="_blank">
+                {{page.column2.name10}}
               </a>
             </li>
-            <li><a href="https://deeper.cib.de/" target="_blank">CIB deepER</a></li>
+            <li><a :href="page.column2.link11" target="_blank">{{page.column2.name11}}</a></li>
             <li>
-              <a href="https://www.cib.de/de/produkte/cib-zugferd-sdk.html" target="_blank">
-                CIB
-                ZUGFeRD SDK
+              <a :href="page.column2.link12" target="_blank">
+                {{page.column2.name12}}
               </a>
             </li>
             <li>
-              <a href="https://libreoffice.cib.de/" target="_blank">
-                LibreOffice powered by
-                CIB
+              <a :href="page.column2.link13" target="_blank">
+                {{page.column2.name13}}
               </a>
             </li>
           </ul>
         </div> <div class="col">
-          <span class="footer-text-title">Unternehmen</span>
+                 <span class="footer-text-title">{{page.column3.section1.header}}</span>
           <ul class="custom-list-footer">
             <li>
-              <a href="https://www.cib.de/de/startseite.html" target="_blank">CIB.de</a>
+              <a :href="page.column3.section1.link1" target="_blank">{{page.column3.section1.name1}}</a>
             </li>
             <li>
-              <a href="https://cash.cib.de" target="_blank">CIB cash</a>
+              <a :href="page.column3.section1.link2" target="_blank">{{page.column3.section1.name2}}</a>
             </li>
             <li>
-              <a href="https://karriere.cib.de" target="_blank">CIB karriere</a>
+              <a :href="page.column3.section1.link3" target="_blank">{{page.column3.section1.name3}}</a>
             </li>
             <li>
-              <a href="https://blog.cib.de/" target="_blank">CIB blog</a>
+              <a :href="page.column3.section1.link4" target="_blank">{{page.column3.section1.name4}}</a>
             </li>
             <li>
-              <a href="https://ciblabs.es" target="_blank">CIB in Spain</a>
+              <a :href="page.column3.section1.link5" target="_blank">{{page.column3.section1.name5}}</a>
             </li>
             <li>
-              <a href="https://corona.cib.de/" target="_blank">CIB antivirus</a>
+              <a :href="page.column3.section1.link6" target="_blank">{{page.column3.section1.name6}}</a>
             </li>
           </ul>
-          <span class="footer-text-title mt-5">CIB Support</span>
+          <span class="footer-text-title mt-5">{{page.column3.section2.header}}</span>
           <ul class="custom-list-footer">
-            <li>Mo-Fr 8:00 - 19:00</li>
+            <li>{{page.column3.section2.contactTimes}}</li>
             <li>
-              <a href="tel:+34828128820">+49 89 143 60 - 111</a>
+              <a :href="page.column3.section2.numberHref">{{page.column3.section2.number}}</a>
             </li>
             <li>
-              <a href="mailto:cibsupport@cib.de">
-                cibsupport@cib.de
+              <a :href="page.column3.section2.mailHref">
+                {{page.column3.section2.mail}}
               </a>
             </li>
           </ul>
-          <span class="footer-text-title mt-5">CIB Scannerbox</span>
+          <span class="footer-text-title mt-5">{{page.column3.section3.header}}</span>
           <ul class="custom-list-footer">
             <li>
-              <a href="https://doxicrate.cib.de/" target="_blank">CIB doXicrate</a>
+              <a :href="page.column3.section3.link1" target="_blank">{{page.column3.section3.name1}}</a>
             </li>
             <li>
-              <a href="https://doxibox.cib.de/" target="_blank">CIB doXibox</a>
+              <a :href="page.column3.section3.link2" target="_blank">{{page.column3.section3.name2}}</a>
             </li>
           </ul>
         </div>
         <div class="col">
           <div class="row justify-content-end">
             <a href="https://www.cib.de/de/startseite.html" title="cib.de" target="_blank">
-              <img src="static/img/CIB_Logo.svg" height="50px" width="auto" alt="logo" class="img-fluid footer-icon-cib">
+              <img src="~/static/img/CIB_Logo.svg" height="50" width="auto" alt="logo" class="img-fluid footer-icon-cib">
             </a>
           </div>
           <div class="row mt-4 justify-content-end">
@@ -270,7 +266,7 @@
           <div class="row d-flex align-items-end justify-content-center mt-4 mb-5">
             <div class="mr-2 order-2 order-lg-2 pl-3">
               <a href="https://www.cib.de/de/startseite.html" title="cib.de" target="_blank">
-                <img src="static/img/CIB_Logo.svg" height="50px" width="auto" alt="logo" class="img-fluid footer-icon-cib">
+                <img src="~/static/img/CIB_Logo.svg" height="50"  alt="logo" class="img-fluid footer-icon-cib">
               </a>
             </div> <div class="order-1 order-lg-1">
               <span class="social-links mr-1">
@@ -322,11 +318,6 @@
     <a id="back-to-top" href="#" role="button" data-placement="left" class="btn btn-toTop btn-outline-toTop back-to-top" style="display: inline;">
       <span class="material-icons">publish</span>
     </a>
-    <div class="desktop">
-      <a id="Analytics3" data-toggle="modal" data-target="#modalAnfrageForm" class="contact-button ie-kontakt btn btn-CTA2 mobile" style="color: white;">
-        Kontakt
-      </a>
-    </div>
   </div>
 
 </template>

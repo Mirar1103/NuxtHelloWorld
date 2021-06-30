@@ -1617,35 +1617,35 @@ th {
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    background-image: url("../images/spinner.svg");
+    background-image: url("~/static/img/spinner.svg");
 }
 
 #loaderandroidForm {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background-image: url("../images/spinner.svg");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-image: url("~/static/img/spinner.svg");
 }
 
 #loadercontactForm {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background-image: url("../images/spinner.svg");
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-image: url("~/static/img/spinner.svg");
 }
 
 .form-control {
@@ -1950,4 +1950,22 @@ a {
     bottom: 20px;
     right: 20px;
     display: none;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
 }

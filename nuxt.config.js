@@ -11,14 +11,18 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     css: [
-      '~/assets/css/cibstyle.css',
       '~/assets/css/bootstrap.css',
+      '~/assets/css/cibstyle.css',
       '~/assets/css/new-style.css',
       '~/assets/css/style-cookie.css'
     ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/bootstrap.css',
+    '~/assets/css/cibstyle.css',
+    '~/assets/css/new-style.css',
+    '~/assets/css/style-cookie.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
