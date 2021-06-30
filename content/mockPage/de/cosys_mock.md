@@ -8,6 +8,7 @@ customComponent1:
   listElement3: Sicher und hocheffizient
   listElement4: Benutzerfreundlich und barrierefrei
   subtitle: effiziente Vorlagen für die individuelle Kunden-Korrespondenz
+  image: ~/static/img/HG_CIB_cosys.svg
   description: CIB coSys verwaltet die gesamte Korrespondenz im Unternehmen. Aus
     intelligenten Vorlagen erzeugen Sie hochwertige und vielfältige Dokumente,
     um mit Ihren Kunden individuell und effizient zu kommunizieren.
