@@ -8,7 +8,7 @@ customComponent1:
   listElement3: lorem ipsum
   listElement4: lorme ipsum
   subtitle: lorem ipsum
-  image: ~/static/img/HG_CIB_cosys.svg
+  image: /img/HG_CIB_cosys.svg
   description: lorem ipsum
   titleBold: "CIB coSys:"
 gridImageTop1:
@@ -21,20 +21,20 @@ gridImageTop1:
   header7: "Efficient "
   header8: Full Integration
   description1: lorem ipsum
-  image1: ~/static/img/Alle Ausgabeformate_zentral_gesteuert_illu.svg
+  image1: /img/Alle Ausgabeformate_zentral_gesteuert_illu.svg
   description2: lorem ipsum
   image2: /img/Effiziente_Kommunikationsprozesse_illu.svg
   description3: lorem ipsum
-  image3: ~/static/img/Personalisierte_Kommunikation_illu.svg
+  image3: /img/Personalisierte_Kommunikation_illu.svg
   title: Create Unique Correspondence
   description4: lorme ipsum
-  image4: ~/static/img/Geführte Kontrolle_und_Sicherheit_illu.svg
+  image4: /img/Geführte Kontrolle_und_Sicherheit_illu.svg
   description5: lorem ipsum
-  image5: ~/static/img/Omnikanale_Kommunikation_illu.svg
+  image5: /img/Omnikanale_Kommunikation_illu.svg
   description6: lorem ipsum
-  image6: ~/static/img/Unabhängiges_Arbeiten_Mitarbeiter_illu.svg
+  image6: /img/Unabhängiges_Arbeiten_Mitarbeiter_illu.svg
   description7: lorem ipsum
-  image7: ~/static/img/Effiziente_Vorlagenverwaltung_illu.svg
+  image7: /img/Effiziente_Vorlagenverwaltung_illu.svg
   description8: lorem ipsum
-  image8: ~/static/img/Volle_Integration_illu.svg
+  image8: /img/Volle_Integration_illu.svg
 ---
