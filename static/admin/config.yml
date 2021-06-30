@@ -225,7 +225,7 @@ collections:
     name: 'mockPage'
     folder: 'content/mockPage'
     format: 'frontmatter'
-    create: true
+    create: false
     slug: '{{slug}}'
     i18n:
       structure: multiple_folders
@@ -245,7 +245,8 @@ collections:
          - { label: 'ListElement1', name: 'listElement1', widget: 'string', i18n: true }
          - { label: 'ListElement2', name: 'listElement2', widget: 'string', i18n: true }      
          - { label: 'ListElement3', name: 'listElement3', widget: 'string', i18n: true }
-         - { label: 'ListElement4', name: 'listElement4', widget: 'string', i18n: true }      
+         - { label: 'ListElement4', name: 'listElement4', widget: 'string', i18n: true }
+         - { label: 'Image', name: 'image', widget: 'image', i18n: true }      
          - { label: 'Button', name: 'Button', widget: 'string', i18n: true }
          - { label: 'ButtonLink', name: 'buttonLink', widget: 'string', i18n: true }
       - label: 'GridImageTop1'
@@ -254,28 +255,28 @@ collections:
         i18n: true
         fields:
          - { label: 'Title', name: 'title', widget: 'string', i18n: true }      
-         - { label: 'Image1', name: 'image1', widget: 'string', i18n: true }
+         - { label: 'Image1', name: 'image1', widget: 'image', i18n: true }
          - { label: 'Header1', name: 'header1', widget: 'string', i18n: true }      
          - { label: 'Description1', name: 'description1', widget: 'string', i18n: true }     
-         - { label: 'Image2', name: 'image2', widget: 'string', i18n: true }
+         - { label: 'Image2', name: 'image2', widget: 'image', i18n: true }
          - { label: 'Header2', name: 'header2', widget: 'string', i18n: true }      
          - { label: 'Description2', name: 'description2', widget: 'string', i18n: true }     
-         - { label: 'Image3', name: 'image3', widget: 'string', i18n: true }
+         - { label: 'Image3', name: 'image3', widget: 'image', i18n: true }
          - { label: 'Header3', name: 'header3', widget: 'string', i18n: true }      
          - { label: 'Description3', name: 'description3', widget: 'string', i18n: true }     
-         - { label: 'Image4', name: 'image4', widget: 'string', i18n: true }
+         - { label: 'Image4', name: 'image4', widget: 'image', i18n: true }
          - { label: 'Header4', name: 'header4', widget: 'string', i18n: true }      
          - { label: 'Description4', name: 'description4', widget: 'string', i18n: true }     
-         - { label: 'Image5', name: 'image5', widget: 'string', i18n: true }
+         - { label: 'Image5', name: 'image5', widget: 'image', i18n: true }
          - { label: 'Header5', name: 'header5', widget: 'string', i18n: true }      
          - { label: 'Description5', name: 'description5', widget: 'string', i18n: true }     
-         - { label: 'Image6', name: 'image6', widget: 'string', i18n: true }
+         - { label: 'Image6', name: 'image6', widget: 'image', i18n: true }
          - { label: 'Header6', name: 'header6', widget: 'string', i18n: true }      
          - { label: 'Description6', name: 'description6', widget: 'string', i18n: true }     
-         - { label: 'Image7', name: 'image7', widget: 'string', i18n: true }
+         - { label: 'Image7', name: 'image7', widget: 'image', i18n: true }
          - { label: 'Header7', name: 'header7', widget: 'string', i18n: true }      
          - { label: 'Description7', name: 'description7', widget: 'string', i18n: true }     
-         - { label: 'Image8', name: 'image8', widget: 'string', i18n: true }
+         - { label: 'Image8', name: 'image8', widget: 'image', i18n: true }
          - { label: 'Header8', name: 'header8', widget: 'string', i18n: true }      
          - { label: 'Description8', name: 'description8', widget: 'string', i18n: true }
           

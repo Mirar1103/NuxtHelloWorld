@@ -1,16 +1,18 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\css",
+    "\\components",
     "\\content",
-    "\\content\\footer",
-    "\\content\\footer\\de",
-    "\\content\\footer\\en",
     "\\content\\menu",
-    "\\content\\menu\\de",
     "\\content\\menu\\en",
+    "\\layouts",
+    "\\pages",
+    "\\pages\\_lang",
     "\\static",
     "\\static\\img"
   ],
-  "SelectedNode": "\\content\\footer\\en\\footer_text.md",
+  "SelectedNode": "\\components\\GridImageTop.vue",
   "PreviewInSolutionExplorer": false
 }

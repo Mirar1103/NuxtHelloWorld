@@ -2,15 +2,15 @@
 
   <div id="Funktionen" class="section text-center light-bg">
     <div class="container">
-      <h2 class="jumbotron-heading section-title">Mit coSys aus Vorlagen individuelle Korrespondenz erzeugen!</h2> <div class="row">
+      <h2 class="jumbotron-heading section-title">{{page.title}}</h2> <div class="row">
         <div class="col-lg-3">
-          <img src="~/static/img//Effiziente_Kommunikationsprozesse_illu.svg" alt="Effiziente Kommunikation" width="340" height="200" class="img-fluid"> <h3 class="text-left card-title font-weight-bold pt-3" style="line-height: 1.2;">
-            Effiziente Kommunikationsprozesse
+          <img src="~/static/img/Effiziente_Kommunikationsprozesse_illu.svg" alt="Effiziente Kommunikation" width="340" height="200" class="img-fluid"> <h3 class="text-left card-title font-weight-bold pt-3" style="line-height: 1.2;">
+            {{page.header1}}
           </h3> <p class="card-text text-left pt-2 mb-6">
-            Aktenzeichen, Logos und mehr? Individuelle und komplexe Korrespondenzen in hoher Qualität erstellen. Durch standardisierte Prozesse reduzieren sich Kosten und Aufwand.
+            {{page.description1}}
           </p>
         </div> <div class="col-lg-3">
-          <img src="~/static/img//Personalisierte_Kommunikation_illu.svg" alt="individuelle Kommunikation" width="340" height="200" class="img-fluid"> <h3 class="text-left card-title font-weight-bold pt-3" style="line-height: 1.2;">
+          <img :src="page.image2" alt="individuelle Kommunikation" width="340" height="200" class="img-fluid"> <h3 class="text-left card-title font-weight-bold pt-3" style="line-height: 1.2;">
             Personalisierte Kommunikation
           </h3> <p class="card-text text-left pt-2 mb-6">
             Sprechen Sie Ihre Kunden gezielt an. Mit individuellen und automatisiert erzeugten Korrespondenzen verbessern Sie ihre Kommunikation und erhöhen die Kundenzufriedenheit.
@@ -59,3 +59,8 @@
   </div>
 
 </template>
+<script>export default {
+
+    props: ['page'],
+
+  }</script>

@@ -57,6 +57,22 @@
       </div>
     </div>
   </div>
-    <GridImageTop />
+    <GridImageTop :page ="page.gridImageTop1"/>
 </div>
 </template>
+<script>
+  export default {
+    async asyncData({ $content, params, redirect }) {
+      const page = await $content('mockPage/' + `${params.lang}/cosys_mock`).fetch().then((pageData) => {
+        return pageData
+
+      }, (error) => {
+        console.log(error)
+        redirect({ params: { lang: 'en' } })
+      })
+      return {
+        page
+      }
+    },
+  }
+</script>
