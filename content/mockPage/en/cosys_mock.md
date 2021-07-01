@@ -8,7 +8,7 @@ customComponent1:
   listElement2: lorem ipsum
   listElement3: lorem ipsum
   listElement4: lorme ipsum
-  subtitle: lorem ipsum
+  subtitle: What so ever
   image: /img/HG_CIB_cosys.svg
   description: lorem ipsum
   titleBold: "CIB coSys:"
