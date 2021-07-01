@@ -1,5 +1,6 @@
 ---
 title: CoSys_Mock
+name: CIB coSys
 customComponent1:
   buttonLink: "#Bewertung"
   Button: learn more
