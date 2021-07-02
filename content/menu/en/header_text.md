@@ -13,7 +13,7 @@ section1:
   header10: Consultants
   header9: Institutes
   header11: Institiutions
-  description1: quod erat demonstrandum
+  description1: quod erat demonstrandu
   description2: quod erat demonstrandum
   description3: quod erat demonstrandum
   description4: quod erat demonstrandum
