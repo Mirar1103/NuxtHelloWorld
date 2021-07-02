@@ -13,29 +13,13 @@ i18n:
   structure: multiple_folders
 
   # Required - a list of locales to show in the editor UI
-  locales: [en, de, fr]
+  locales: [en, de, es]
 
   # Optional, defaults to the first item in locales.
   # The locale to be used for fields validation and as a baseline for the entry.
-  default_locale: en
+  default_locale: de
 
 collections:
-  - label: 'Info'
-    name: 'info'
-    folder: 'content/info'
-    format: 'frontmatter'
-    create: true
-    slug: '{{slug}}'
-    i18n:
-      structure: multiple_folders
-      locales: [en, de, fr]
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Header', name: 'header', widget: 'string', i18n: true }      
-      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
-      - { label: 'Image', name: 'image', widget: 'string', i18n: true }
   - label: 'Menu'
     name: 'menu'
     folder: 'content/menu'
@@ -44,7 +28,7 @@ collections:
     slug: '{{slug}}'
     i18n:
       structure: multiple_folders
-      locales: [en, de, fr]
+      locales: [en, de, es]
     editor:
       preview: false
     fields:
@@ -113,7 +97,7 @@ collections:
     slug: '{{slug}}'
     i18n:
       structure: multiple_folders
-      locales: [en, de, fr]
+      locales: [en, de, es]
     editor:
       preview: false
     fields:
@@ -221,7 +205,7 @@ collections:
             - { label: 'Link1', name: 'link1', widget: 'string', i18n: true }
             - { label: 'Name2', name: 'name2', widget: 'string', i18n: true }
             - { label: 'Link2', name: 'link2', widget: 'string', i18n: true } 
-  - label: 'MockPage'
+  - label: 'CIB coSys'
     name: 'mockPage'
     folder: 'content/mockPage'
     format: 'frontmatter'
@@ -229,11 +213,12 @@ collections:
     slug: '{{slug}}'
     i18n:
       structure: multiple_folders
-      locales: [en, de, fr]
+      locales: [en, de, es]
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Name', name: 'name', widget: 'string', i18n: true }
       - label: 'CustomComponent1'
         name: 'customComponent1'
         widget: "object"
